@@ -2,8 +2,9 @@ import React from "react";
 import "./App.css";
 
 import InputSearch from "./InputSearch";
+import {findHighest} from "./findHighest";
 
-const data = require("./Data.json");
+import data from "./Data.json";
 
 class App extends React.Component {
   state = {
@@ -17,15 +18,8 @@ class App extends React.Component {
       item.name.toLowerCase().includes(this.state.filter.toLowerCase())
     );
 
-  findHeighst = data => {
-    const highest = this.filterdArr(data).map(item =>
-      parseInt(item.height, 10)
-    );
-    return Math.max(...highest);
-  };
-
   render() {
-    const maxHeight = this.findHeighst(data);
+    const maxHeight = findHighest(this.filterdArr(data));
     return (
       <div className="App">
         <InputSearch handleChange={this.handleChange} />

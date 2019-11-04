@@ -1,0 +1,1 @@
+export const findHighest = (data) => Math.max(...data.map(item => parseInt(item.height, 10)))

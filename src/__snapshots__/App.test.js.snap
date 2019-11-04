@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+"<div className=\\"App\\">
+  <InputSearch handleChange={[Function]} />
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          Name
+        </td>
+        <td>
+          Hair color
+        </td>
+        <td>
+          Height
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          Luke Skywalker
+        </td>
+        <td>
+          blond
+        </td>
+        <td>
+          172
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          C-3PO
+        </td>
+        <td>
+          n/a
+        </td>
+        <td>
+          167
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          R2-D2
+        </td>
+        <td>
+          n/a
+        </td>
+        <td>
+          96
+        </td>
+      </tr>
+      <tr className=\\"highest\\">
+        <td>
+          Darth Vader
+        </td>
+        <td>
+          none
+        </td>
+        <td>
+          202
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          Leia Organa
+        </td>
+        <td>
+          brown
+        </td>
+        <td>
+          150
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          Owen Lars
+        </td>
+        <td>
+          brown, grey
+        </td>
+        <td>
+          178
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          Beru Whitesun lars
+        </td>
+        <td>
+          brown
+        </td>
+        <td>
+          165
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          R5-D4
+        </td>
+        <td>
+          n/a
+        </td>
+        <td>
+          97
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          Biggs Darklighter
+        </td>
+        <td>
+          black
+        </td>
+        <td>
+          183
+        </td>
+      </tr>
+      <tr className=\\"\\">
+        <td>
+          Obi-Wan Kenobi
+        </td>
+        <td>
+          auburn, white
+        </td>
+        <td>
+          182
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>"
+`;
